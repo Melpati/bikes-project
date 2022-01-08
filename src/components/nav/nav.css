@@ -1,0 +1,83 @@
+.topnav-sec{
+    width: 100%;
+    float: left;
+    background-color: #1b2b33;
+    color: #fff;
+}
+.topnav-left {
+    width: 75%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.topnav-right {
+    width: 25%;
+    float: right;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+.topnav-right .fa {
+    color: #ff6e56;
+}
+.topnav-right li, .topnav-left li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+.topnav-left li:first-child {
+    padding-left: 0;
+}
+.topnav-right li:last-child{
+    padding-right: 0;
+}
+.middnav-sec {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+.middnav-sec ul {
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+.middnav-sec ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.middnav-sec ul li:hover{
+    background-color: #1b2b33;
+    color: #fff;
+}
+.searchnav-sec {
+    width: 100%;
+    float: right;
+    text-align: right;
+    position: relative;
+    margin-top: 15px;
+}
+.searchnav-sec input[type="text"] {
+    width: 100%;
+    float: left;
+    padding: 7px;
+}
+.searchnav-sec button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 9px 15px;
+    background-color: #ff6e56;
+    border: 0;
+}
+.searchnav-sec button:hover{
+    background-color: #1b2b33;
+    color: #fff;
+}
+.mainnav-sec {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
